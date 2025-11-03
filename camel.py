@@ -15,9 +15,13 @@ def bacnner():
     stars = '*' * len(message)
     print(f'\n{stars}\n{message}\n{stars}\n')
 
+def instructions():
+    print("This program converts a sentence to camelCase.")
+
 
 def main():
     bacnner()
+    instructions()
     sentence = input('Enter your sentence: ')
     output = camelcase(sentence)
     print(output)
